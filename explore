@@ -1,0 +1,19 @@
+there is a list of codes to with SD card.
+
+//Custom M Codes
+// M20  - List SD card
+// M21  - Init SD card
+// M22  - Release SD card
+// M23  - Select SD file (M23 filename.g)
+// M24  - Start/resume SD print
+// M25  - Pause SD print
+// M26  - Set SD position in bytes (M26 S12345)
+// M27  - Report SD print status
+// M28  - Start SD write (M28 filename.g)
+// M29  - Stop SD write
+
+
+Implement Printer interface with them in BlueBridge desktop program.
+
+logging goes throw showString function that takes string address for
+Flash Memory.
