@@ -398,6 +398,47 @@ pins
 #define PD7_WPORT		PORTD
 #define PD7_DDR			DDRD
 #define PD7_PWM			NULL
+
+#warning "FAKE PINS THAT DON't exist in atmega328"
+static char fakeportbyte = 0;
+#define DIO24_DDR fakeportbyte
+#define DIO24_PIN fakeportbyte
+#define DIO24_WPORT fakeportbyte
+#define DIO26_DDR fakeportbyte
+#define DIO26_PIN fakeportbyte
+#define DIO26_WPORT fakeportbyte
+#define DIO28_DDR fakeportbyte
+#define DIO28_PIN fakeportbyte
+#define DIO28_WPORT fakeportbyte
+#define DIO38_DDR fakeportbyte
+#define DIO38_PIN fakeportbyte
+#define DIO38_WPORT fakeportbyte
+#define DIO46_DDR fakeportbyte
+#define DIO46_PIN fakeportbyte
+#define DIO46_WPORT fakeportbyte
+#define DIO48_DDR fakeportbyte
+#define DIO48_PIN fakeportbyte
+#define DIO48_WPORT fakeportbyte
+#define DIO54_DDR fakeportbyte
+#define DIO54_PIN fakeportbyte
+#define DIO54_WPORT fakeportbyte
+#define DIO55_DDR fakeportbyte
+#define DIO55_PIN fakeportbyte
+#define DIO55_WPORT fakeportbyte
+#define DIO56_DDR fakeportbyte
+#define DIO56_PIN fakeportbyte
+#define DIO56_WPORT fakeportbyte
+#define DIO60_DDR fakeportbyte
+#define DIO60_PIN fakeportbyte
+#define DIO60_WPORT fakeportbyte
+#define DIO61_DDR fakeportbyte
+#define DIO61_PIN fakeportbyte
+#define DIO61_WPORT fakeportbyte
+#define DIO62_DDR fakeportbyte
+#define DIO62_PIN fakeportbyte
+#define DIO62_WPORT fakeportbyte
+
+
 #endif	/*	_AVR_ATmega{168,328,328P}__ */
 
 #if defined (__AVR_ATmega644__) || defined (__AVR_ATmega644P__) || defined (__AVR_ATmega644PA__) || defined(__AVR_ATmega1284P__)
